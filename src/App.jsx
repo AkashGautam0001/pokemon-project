@@ -1,12 +1,8 @@
 import "./App.css";
-import Pokedesk from "./components/Pokedex/Pokedex";
+import CustomRoutes from "./routes/CustomRoutes";
 
 function App() {
-	return (
-		<h1>
-			<Pokedesk />
-		</h1>
-	);
+	return <CustomRoutes />;
 }
 
 export default App;

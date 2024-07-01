@@ -51,6 +51,7 @@ function PokemonList() {
 								key={pokemon.id}
 								name={pokemon.name}
 								image={pokemon.image}
+								id={pokemon.id}
 							/>
 					  ))}
 			</div>
